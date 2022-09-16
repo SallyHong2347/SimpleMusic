@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simple Music</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title">🎹 Simple Music 🥁</h1>
+  <h2>Instructions:</h2>
+  <ul>
+    <li>You can click the button or hit the corresponding key to play the sound.</li>
+    <li>You can also enter keys in the following box and hit the play button to play a combination.</li>
+    <li>Sounds in the two boxes play in parallel.</li>
+    <li>Characters that do not have a corresponding sound below are considered a pause.</li>
+    <li>Try the following example:</li>
+    <li>first row: 1xx23xx13x1x3</li>
+    <li>second row: jdjdjdjdjdjdl</li>
+  </ul>
+
+    <div>
+    <input class="input1" type="text" placeholder="Enter keys to play corresponding instrument"> </input>
+
+    <input class="input2" type="text" placeholder="Enter keys to play corresponding instrument"> </input>
+
+    <button class="play" type="button">play</button>
+    </div>
+  <div class="set">
+    <h2>Percussion</h2>
+    <button class="w drum">w</button>
+    <button class="a drum">a</button>
+    <button class="s drum">s</button>
+    <button class="d drum">d</button>
+    <button class="j drum">j</button>
+    <button class="k drum">k</button>
+    <button class="l drum">l</button>
+  </div>
+
+  <div class="set">
+    <h2>Piano</h2>
+    <button class="do note">1</button>
+    <button class="re note">2</button>
+    <button class="mi note">3</button>
+    <button class="fa note">4</button>
+    <button class="so note">5</button>
+    <button class="la note">6</button>
+    <button class="ti note">7</button>
+    <button class="do2 note">8</button>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
